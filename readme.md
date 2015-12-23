@@ -7,10 +7,10 @@ You will need to install praw and OAuth2Util.
 Just run this commands:
 
 
-'''
 pip3 install praw
+
 pip3 install praw-oauth2util
-'''
+
 
 ##**Setup to be done before first run:**
 
@@ -20,13 +20,19 @@ oauth.ini, emailids, title.txt, urls
 
 1. Read about oauth.ini at https://github.com/SmBe19/praw-OAuth2Util/
 
-2.*emailids*: 
-	*Put the email ids in here with space between every emailid.
-3.*title.txt*:
-	Just create this file no need to do anything with it.
-4.*urls*:
-	This is the file that check for posts linking the same stuff. You will have to manually put the links in here.
-	The format is like this or check the sample urls:
-	"url1 url2 url3"
-	Its upto you to link how many links you want.
 
+2. emailids: 
+	*Put the email ids in here with space between every emailid.
+
+
+3. title.txt:
+	Just create this file no need to do anything with it.
+	
+4. urls:
+	This is the file that check for posts linking the same stuff. You will have to manually put the links in here.
+
+	The format is like this or check the sample urls:
+	
+	"url1 url2 url3"
+	
+	Its upto you to link how many links you want.
