@@ -125,7 +125,7 @@ def main():
 			logging.info(timestring)
 			exit(0)
 		except Exception as e:
-			exception = "Exception: " + e
+			exception = "Exception: " + str(e)
 			logging.error(exception)
 
 if __name__ == "__main__":
