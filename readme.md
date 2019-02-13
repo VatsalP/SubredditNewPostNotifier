@@ -1,4 +1,6 @@
-#**Subreddit new post email notifier**
+Note: Probably doesn't work since it was made years ago
+
+# Subreddit new post email notifier
 
 A simple python script that notifies a number of emailids about a new link in the subreddit specified in the script
 
@@ -12,7 +14,7 @@ pip3 install praw
 pip3 install praw-oauth2util
 
 
-##**Setup to be done before first run:**
+## Setup to be done before first run:
 
 There are four files required for the script to run(name them exactly the same and put them in same folder as the main script):
 
